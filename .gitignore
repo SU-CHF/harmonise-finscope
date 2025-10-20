@@ -4,6 +4,7 @@
 # Ignore CSV files
 *.csv
 !mappings/*.csv
+!docs/public_data/finscope_harmonised.csv
 
 # Mac
 *.DS_Store

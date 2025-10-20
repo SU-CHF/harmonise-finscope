@@ -9,16 +9,16 @@ permalink: /
 # FinScope Harmonisation
 {: .fs-9 }
 
-Consistent, researcher-friendly indicators assembled from the FinScope Consumer South Africa surveys.
-{: .fs-6 .fw-300 }
+This dataset provides consistent time series assembled from the FinScope Consumer South Africa surveys. Variable definitions and weighting have been harmonized across survey waves to enable reliable time-series analysis of financial behaviors among South African adults. Both code and data are available for reuse.
+{: .fs-5 .fw-300 }
 
-## Explore the data
+[Download the data](public_data/finscope_harmonised.csv){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Explore the code](https://github.com/SU-CHF/harmonise-finscope){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-Pick one or more harmonised measures to see how they evolve through time. Values are expressed as the share of adults reporting the indicator in each survey year.
+---
 
 <div class="chart-panel">
   <div class="chart-controls">
-    <strong class="chart-controls__title">Measures</strong>
+    <strong class="chart-controls__title">The data includes:</strong>
     <div id="measure-selector" class="chart-controls__options"></div>
   </div>
   <div class="chart-visual">
