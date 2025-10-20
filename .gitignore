@@ -1,0 +1,18 @@
+# Ignore environment files
+.env
+
+# Ignore CSV files
+*.csv
+
+# Mac
+*.DS_Store
+
+# Jupyter notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Python
+__pycache__/
+
+# PDFs
+*.pdf
