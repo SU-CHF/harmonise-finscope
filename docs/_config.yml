@@ -1,0 +1,11 @@
+
+title: Harmonise FinScope Surveys
+description: Documentation for harmonising FinScope survey data across years.
+theme: just-the-docs
+
+url: https://su-chf.github.io./harmonise-finscope
+
+# Aux links for the upper right navigation
+aux_links:
+  "Access the code":
+    - "https://github.com/SU-CHF/harmonise-finscope"

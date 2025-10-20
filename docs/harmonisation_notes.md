@@ -1,4 +1,11 @@
-# Harmonisation Notes
+---
+layout: default
+title: Harmonisation notes
+nav_order: 5
+description: "Contextual checks, questionnaire quirks, and modelling decisions by survey year."
+---
+
+# Harmonisation notes
 
 Living document capturing contextual checks, questionnaire quirks, and modelling decisions made while harmonising FinScope survey waves. Extend these notes as new indicators or years are incorporated.
 
