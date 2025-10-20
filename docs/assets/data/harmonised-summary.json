@@ -1,0 +1,93 @@
+{
+  "indicator_labels": {
+    "burial_society": "Burial society membership",
+    "funeral_insurance": "Funeral insurance coverage",
+    "life_insurance": "Life insurance coverage"
+  },
+  "series": [
+    {
+      "year": 2006,
+      "burial_society": 18.5,
+      "funeral_insurance": 24.4,
+      "life_insurance": 9.4
+    },
+    {
+      "year": 2007,
+      "burial_society": 29.0,
+      "funeral_insurance": 25.7,
+      "life_insurance": 9.5
+    },
+    {
+      "year": 2008,
+      "burial_society": 24.6,
+      "funeral_insurance": 27.5,
+      "life_insurance": 12.5
+    },
+    {
+      "year": 2009,
+      "burial_society": 19.7,
+      "funeral_insurance": 28.4,
+      "life_insurance": 14.2
+    },
+    {
+      "year": 2010,
+      "burial_society": 15.6,
+      "funeral_insurance": 36.0,
+      "life_insurance": 18.9
+    },
+    {
+      "year": 2011,
+      "burial_society": 12.1,
+      "funeral_insurance": 30.8,
+      "life_insurance": 13.5
+    },
+    {
+      "year": 2012,
+      "burial_society": 24.4,
+      "funeral_insurance": 25.7,
+      "life_insurance": 11.6
+    },
+    {
+      "year": 2013,
+      "burial_society": 19.9,
+      "funeral_insurance": 32.7,
+      "life_insurance": 15.4
+    },
+    {
+      "year": 2014,
+      "burial_society": 23.9,
+      "funeral_insurance": 33.1,
+      "life_insurance": 14.8
+    },
+    {
+      "year": 2015,
+      "burial_society": 20.5,
+      "funeral_insurance": 29.3,
+      "life_insurance": 11.8
+    },
+    {
+      "year": 2016,
+      "burial_society": 23.7,
+      "funeral_insurance": 29.5,
+      "life_insurance": 12.5
+    },
+    {
+      "year": 2017,
+      "burial_society": 19.0,
+      "funeral_insurance": 32.2,
+      "life_insurance": 12.1
+    },
+    {
+      "year": 2018,
+      "burial_society": 18.2,
+      "funeral_insurance": 36.7,
+      "life_insurance": 12.6
+    },
+    {
+      "year": 2019,
+      "burial_society": 18.3,
+      "funeral_insurance": 33.4,
+      "life_insurance": 11.9
+    }
+  ]
+}

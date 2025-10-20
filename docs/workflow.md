@@ -42,6 +42,7 @@ This command:
 - Reads the mappings and weight configuration (`mappings/year_weights.csv`)
 - Loads each survey wave from `DATA_PATH`
 - Produces both wide (`finscope_harmonised.csv`) and long (`finscope_harmonised_long.csv`) outputs under `outputs/`
+- Regenerates the homepage summary JSON used by the documentation chart
 
 ## 5. Inspect the result
 
