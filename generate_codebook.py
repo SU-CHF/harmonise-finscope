@@ -1,4 +1,5 @@
 import os
+import json
 import pandas as pd
 import pyreadstat
 from dotenv import load_dotenv
@@ -18,6 +19,15 @@ for year in range(2005, 2020):
         df_m = pd.DataFrame()
         df_m['name'] = metadata.column_names
         df_m['label'] = metadata.column_labels
+
+        variable_value_labels = getattr(metadata, "variable_value_labels", None)
+        if variable_value_labels:
+            df_m['value_labels'] = [
+                json.dumps(variable_value_labels.get(name, {}))
+                if variable_value_labels.get(name)
+                else ""
+                for name in metadata.column_names
+            ]
         
         # Save the codebook as a CSV file
         codebook_path = codebook_folder / f"codebook_{year}.csv"
