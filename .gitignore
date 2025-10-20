@@ -3,6 +3,7 @@
 
 # Ignore CSV files
 *.csv
+!mappings/*.csv
 
 # Mac
 *.DS_Store
