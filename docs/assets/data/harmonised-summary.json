@@ -1,93 +1,213 @@
 {
   "indicator_labels": {
+    "bank_account_own_name": "Bank account in own name",
     "burial_society": "Burial society membership",
+    "credit_card": "Has credit card",
+    "electricity_access": "Home has electricity",
+    "food_insecurity_often": "Often went without food due to lack of money",
     "funeral_insurance": "Funeral insurance coverage",
-    "life_insurance": "Life insurance coverage"
+    "home_loan": "Has home loan",
+    "life_insurance": "Life insurance coverage",
+    "mashonisa_borrowing": "Borrowed from mashonisa or loan shark",
+    "retirement_product": "Has retirement annuity, provident, or pension fund",
+    "stokvel_membership": "Membership of a stokvel"
   },
   "series": [
     {
       "year": 2006,
+      "bank_account_own_name": 46.3,
       "burial_society": 18.5,
+      "credit_card": 6.8,
+      "electricity_access": 85.5,
+      "food_insecurity_often": 3.8,
       "funeral_insurance": 24.4,
-      "life_insurance": 9.4
+      "home_loan": 6.1,
+      "life_insurance": 9.4,
+      "mashonisa_borrowing": 0.2,
+      "retirement_product": 10.2,
+      "stokvel_membership": 6.5
     },
     {
       "year": 2007,
+      "bank_account_own_name": 54.7,
       "burial_society": 29.0,
+      "credit_card": 8.8,
+      "electricity_access": 69.4,
+      "food_insecurity_often": 2.8,
       "funeral_insurance": 25.7,
-      "life_insurance": 9.5
+      "home_loan": 5.6,
+      "life_insurance": 9.5,
+      "mashonisa_borrowing": 0.5,
+      "retirement_product": 12.5,
+      "stokvel_membership": 5.6
     },
     {
       "year": 2008,
+      "bank_account_own_name": 53.9,
       "burial_society": 24.6,
+      "credit_card": 9.0,
+      "electricity_access": 86.3,
+      "food_insecurity_often": 3.5,
       "funeral_insurance": 27.5,
-      "life_insurance": 12.5
+      "home_loan": 4.5,
+      "life_insurance": 12.5,
+      "mashonisa_borrowing": 1.1,
+      "retirement_product": 12.9,
+      "stokvel_membership": 8.5
     },
     {
       "year": 2009,
+      "bank_account_own_name": 55.3,
       "burial_society": 19.7,
+      "credit_card": 7.8,
+      "electricity_access": 87.8,
+      "food_insecurity_often": 3.2,
       "funeral_insurance": 28.4,
-      "life_insurance": 14.2
+      "home_loan": 4.5,
+      "life_insurance": 14.2,
+      "mashonisa_borrowing": 1.6,
+      "retirement_product": 14.2,
+      "stokvel_membership": 8.3
     },
     {
       "year": 2010,
+      "bank_account_own_name": 52.5,
       "burial_society": 15.6,
+      "credit_card": 6.8,
+      "electricity_access": 83.1,
+      "food_insecurity_often": 2.3,
       "funeral_insurance": 36.0,
-      "life_insurance": 18.9
+      "home_loan": 4.6,
+      "life_insurance": 18.9,
+      "mashonisa_borrowing": 1.1,
+      "retirement_product": 17.7,
+      "stokvel_membership": 7.0
     },
     {
       "year": 2011,
+      "bank_account_own_name": 47.3,
       "burial_society": 12.1,
+      "credit_card": 5.8,
+      "electricity_access": 86.3,
+      "food_insecurity_often": 22.6,
       "funeral_insurance": 30.8,
-      "life_insurance": 13.5
+      "home_loan": 5.1,
+      "life_insurance": 13.5,
+      "mashonisa_borrowing": 1.2,
+      "retirement_product": 16.2,
+      "stokvel_membership": 3.6
     },
     {
       "year": 2012,
+      "bank_account_own_name": 63.0,
       "burial_society": 24.4,
+      "credit_card": 7.6,
+      "electricity_access": 90.5,
+      "food_insecurity_often": 3.1,
       "funeral_insurance": 25.7,
-      "life_insurance": 11.6
+      "home_loan": 3.7,
+      "life_insurance": 11.6,
+      "mashonisa_borrowing": 0.7,
+      "retirement_product": 16.6,
+      "stokvel_membership": 5.6
     },
     {
       "year": 2013,
+      "bank_account_own_name": 67.6,
       "burial_society": 19.9,
+      "credit_card": 8.5,
+      "electricity_access": 94.9,
+      "food_insecurity_often": 2.4,
       "funeral_insurance": 32.7,
-      "life_insurance": 15.4
+      "home_loan": 5.4,
+      "life_insurance": 15.4,
+      "mashonisa_borrowing": 1.0,
+      "retirement_product": 18.5,
+      "stokvel_membership": 6.8
     },
     {
       "year": 2014,
+      "bank_account_own_name": 64.6,
       "burial_society": 23.9,
+      "credit_card": 7.4,
+      "electricity_access": 94.4,
+      "food_insecurity_often": 2.2,
       "funeral_insurance": 33.1,
-      "life_insurance": 14.8
+      "home_loan": 3.6,
+      "life_insurance": 14.8,
+      "mashonisa_borrowing": 1.4,
+      "retirement_product": 15.9,
+      "stokvel_membership": 5.4
     },
     {
       "year": 2015,
+      "bank_account_own_name": 63.6,
       "burial_society": 20.5,
+      "credit_card": 7.4,
+      "electricity_access": 94.6,
+      "food_insecurity_often": null,
       "funeral_insurance": 29.3,
-      "life_insurance": 11.8
+      "home_loan": 3.0,
+      "life_insurance": 11.8,
+      "mashonisa_borrowing": 0.9,
+      "retirement_product": null,
+      "stokvel_membership": 6.8
     },
     {
       "year": 2016,
+      "bank_account_own_name": 72.2,
       "burial_society": 23.7,
+      "credit_card": 7.3,
+      "electricity_access": 94.9,
+      "food_insecurity_often": 3.6,
       "funeral_insurance": 29.5,
-      "life_insurance": 12.5
+      "home_loan": 5.6,
+      "life_insurance": 12.5,
+      "mashonisa_borrowing": 1.1,
+      "retirement_product": 14.5,
+      "stokvel_membership": 4.8
     },
     {
       "year": 2017,
+      "bank_account_own_name": 75.0,
       "burial_society": 19.0,
+      "credit_card": 5.7,
+      "electricity_access": 96.9,
+      "food_insecurity_often": 4.5,
       "funeral_insurance": 32.2,
-      "life_insurance": 12.1
+      "home_loan": 3.9,
+      "life_insurance": 12.1,
+      "mashonisa_borrowing": 2.1,
+      "retirement_product": 15.5,
+      "stokvel_membership": 5.8
     },
     {
       "year": 2018,
+      "bank_account_own_name": 79.8,
       "burial_society": 18.2,
+      "credit_card": 7.1,
+      "electricity_access": 97.3,
+      "food_insecurity_often": 2.9,
       "funeral_insurance": 36.7,
-      "life_insurance": 12.6
+      "home_loan": 2.9,
+      "life_insurance": 12.6,
+      "mashonisa_borrowing": 2.8,
+      "retirement_product": 18.1,
+      "stokvel_membership": 9.1
     },
     {
       "year": 2019,
+      "bank_account_own_name": 81.1,
       "burial_society": 18.3,
+      "credit_card": 7.5,
+      "electricity_access": 98.6,
+      "food_insecurity_often": null,
       "funeral_insurance": 33.4,
-      "life_insurance": 11.9
+      "home_loan": 3.2,
+      "life_insurance": 11.9,
+      "mashonisa_borrowing": 1.9,
+      "retirement_product": 17.5,
+      "stokvel_membership": 9.4
     }
   ]
 }
