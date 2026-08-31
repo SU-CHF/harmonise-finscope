@@ -1,4 +1,4 @@
-indicator_id,indicator_label,year,field_type,field,positive_codes,aggregation,exclude_fields,notes
+indicator_id,indicator_label,year,field_type,field,positive_codes,aggregation,exclude_fields,notes,missing_policy
 bank_account_own_name,Bank account in own name,2006,column,Q67A;Q67E;Q67F;Q67G;Q67I;Q67K,3,any,,Codes 3=Have now
 bank_account_own_name,Bank account in own name,2007,column,Q72_A;Q72_E;Q72_F;Q72_G;Q72_H;Q72_J;Q72_L;Q72_N;Q72_O;Q72_P,3,any,,Codes 3=Have now
 bank_account_own_name,Bank account in own name,2008,column,Q105_A;Q105_D;Q105_E;Q105_F;Q105_G;Q105_H;Q105_J;Q105_L;Q105_N;Q105_O;Q105_P,3,any,,Codes 3=Have now
@@ -150,3 +150,75 @@ stokvel_membership,Membership of a stokvel,2016,column,A7_4,1,single,,
 stokvel_membership,Membership of a stokvel,2017,column,A7_4,1,single,,
 stokvel_membership,Membership of a stokvel,2018,column,A7_4,1,single,,
 stokvel_membership,Membership of a stokvel,2019,column,C7_2,1,single,,
+housing_owner_mortgage,Owner paying a mortgage or bond,2010,column,Q242_,2,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2011,column,Q84_,2,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2012,column,Q103_,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2013,column,Q103_,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2014,column,Q103_,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2015,column,A2,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2016,column,A2a,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2017,column,A2a,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2018,column,A2a,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2019,column,M11,1,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2010,column,Q242_,1,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2011,column,Q84_,1,single,,Inherited housing is retained only in the broader owner measure,exclude
+housing_owner_outright,Owner without a mortgage or bond,2012,column,Q103_,2,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2013,column,Q103_,2,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2014,column,Q103_,2,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2015,column,A2,2,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2016,column,A2a,2,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2017,column,A2a,2,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2018,column,A2a,2,single,,,exclude
+housing_owner_outright,Owner without a mortgage or bond,2019,column,M11,2,single,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2006,column,Q104,1,single,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2007,column,Q87_,1,single,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2008,column,Q125_,1,single,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2009,column,Q242_,1,single,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2010,column,Q242_,1;2,any,,Questionnaire begins separating mortgage and outright ownership,exclude
+housing_tenure_owner,Household reports owning its dwelling,2011,column,Q84_,1;2;9,any,,Includes inherited housing; excludes RDP government and tribal categories,exclude
+housing_tenure_owner,Household reports owning its dwelling,2012,column,Q103_,1;2,any,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2013,column,Q103_,1;2,any,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2014,column,Q103_,1;2,any,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2015,column,A2,1;2,any,,Excludes RDP and extended RDP categories,exclude
+housing_tenure_owner,Household reports owning its dwelling,2016,column,A2a,1;2,any,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2017,column,A2a,1;2,any,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2018,column,A2a,1;2,any,,,exclude
+housing_tenure_owner,Household reports owning its dwelling,2019,column,M11,1;2,any,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2010,column,Q242_,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2011,column,Q84_,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2012,column,Q103_,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2013,column,Q103_,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2014,column,Q103_,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2015,column,A2,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2016,column,A2a,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2017,column,A2a,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2018,column,A2a,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2019,column,M11,4,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2006,column,Q104,2,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2007,column,Q87_,2,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2008,column,Q125_,2,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2009,column,Q242_,2,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2010,column,Q242_,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2011,column,Q84_,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2012,column,Q103_,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2013,column,Q103_,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2014,column,Q103_,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2015,column,A2,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2016,column,A2a,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2017,column,A2a,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2018,column,A2a,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2019,column,M11,3,single,,,exclude
+vehicle_finance_current,Current formal vehicle finance,2006,column,Q67AB,3,single,,Bank or dealer finance,exclude
+vehicle_finance_current,Current formal vehicle finance,2007,column,Q92_L,3,single,,Bank or dealer finance,exclude
+vehicle_finance_current,Current formal vehicle finance,2008,column,Q105_R,3,single,,Bank or dealer finance,exclude
+vehicle_finance_current,Current formal vehicle finance,2009,column,Q128_L,3,single,,Borrowing now from a bank or via a dealer,exclude
+vehicle_finance_current,Current formal vehicle finance,2010,column,Q128_L,3,single,,Borrowing now from a bank or via a dealer,exclude
+vehicle_finance_current,Current formal vehicle finance,2011,column,Q25_18,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2012,column,Q178_C,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2013,column,Q178_C,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2014,column,Q178_C,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2015,column,F7_3,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2016,column,F7_3,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2017,column,F7_3,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2018,column,F7_3,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2019,column,F7_03,3,single,,Bank or dealer finance held now,exclude

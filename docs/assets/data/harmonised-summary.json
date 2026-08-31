@@ -10,7 +10,13 @@
     "life_insurance": "Life insurance coverage",
     "mashonisa_borrowing": "Borrowed from mashonisa or loan shark",
     "retirement_product": "Has retirement annuity, provident, or pension fund",
-    "stokvel_membership": "Membership of a stokvel"
+    "stokvel_membership": "Membership of a stokvel",
+    "housing_tenure_owner": "Household reports owning its dwelling",
+    "housing_tenure_renter": "Household rents its dwelling",
+    "vehicle_finance_current": "Current formal vehicle finance",
+    "housing_owner_mortgage": "Owner paying a mortgage or bond",
+    "housing_owner_outright": "Owner without a mortgage or bond",
+    "housing_tenure_rent_free": "Household occupies dwelling rent-free"
   },
   "series": [
     {
@@ -25,7 +31,13 @@
       "life_insurance": 9.4,
       "mashonisa_borrowing": 0.2,
       "retirement_product": 10.2,
-      "stokvel_membership": 6.5
+      "stokvel_membership": 6.5,
+      "housing_tenure_owner": 81.6,
+      "housing_tenure_renter": 14.1,
+      "vehicle_finance_current": 2.4,
+      "housing_owner_mortgage": null,
+      "housing_owner_outright": null,
+      "housing_tenure_rent_free": null
     },
     {
       "year": 2007,
@@ -39,7 +51,13 @@
       "life_insurance": 9.5,
       "mashonisa_borrowing": 0.5,
       "retirement_product": 12.5,
-      "stokvel_membership": 5.6
+      "stokvel_membership": 5.6,
+      "housing_tenure_owner": 80.2,
+      "housing_tenure_renter": 14.0,
+      "vehicle_finance_current": 2.9,
+      "housing_owner_mortgage": null,
+      "housing_owner_outright": null,
+      "housing_tenure_rent_free": null
     },
     {
       "year": 2008,
@@ -53,7 +71,13 @@
       "life_insurance": 12.5,
       "mashonisa_borrowing": 1.1,
       "retirement_product": 12.9,
-      "stokvel_membership": 8.5
+      "stokvel_membership": 8.5,
+      "housing_tenure_owner": 80.4,
+      "housing_tenure_renter": 15.3,
+      "vehicle_finance_current": 3.2,
+      "housing_owner_mortgage": null,
+      "housing_owner_outright": null,
+      "housing_tenure_rent_free": null
     },
     {
       "year": 2009,
@@ -67,7 +91,13 @@
       "life_insurance": 14.2,
       "mashonisa_borrowing": 1.6,
       "retirement_product": 14.2,
-      "stokvel_membership": 8.3
+      "stokvel_membership": 8.3,
+      "housing_tenure_owner": 87.6,
+      "housing_tenure_renter": 11.1,
+      "vehicle_finance_current": 3.9,
+      "housing_owner_mortgage": null,
+      "housing_owner_outright": null,
+      "housing_tenure_rent_free": null
     },
     {
       "year": 2010,
@@ -81,7 +111,13 @@
       "life_insurance": 18.9,
       "mashonisa_borrowing": 1.1,
       "retirement_product": 17.7,
-      "stokvel_membership": 7.0
+      "stokvel_membership": 7.0,
+      "housing_tenure_owner": 38.5,
+      "housing_tenure_renter": 11.6,
+      "vehicle_finance_current": 4.7,
+      "housing_owner_mortgage": 10.9,
+      "housing_owner_outright": 27.6,
+      "housing_tenure_rent_free": 26.1
     },
     {
       "year": 2011,
@@ -95,7 +131,13 @@
       "life_insurance": 13.5,
       "mashonisa_borrowing": 1.2,
       "retirement_product": 16.2,
-      "stokvel_membership": 3.6
+      "stokvel_membership": 3.6,
+      "housing_tenure_owner": 39.0,
+      "housing_tenure_renter": 12.9,
+      "vehicle_finance_current": 4.5,
+      "housing_owner_mortgage": 8.1,
+      "housing_owner_outright": 26.5,
+      "housing_tenure_rent_free": 20.8
     },
     {
       "year": 2012,
@@ -109,7 +151,13 @@
       "life_insurance": 11.6,
       "mashonisa_borrowing": 0.7,
       "retirement_product": 16.6,
-      "stokvel_membership": 5.6
+      "stokvel_membership": 5.6,
+      "housing_tenure_owner": 68.4,
+      "housing_tenure_renter": 14.1,
+      "vehicle_finance_current": 3.7,
+      "housing_owner_mortgage": 6.5,
+      "housing_owner_outright": 61.9,
+      "housing_tenure_rent_free": 15.7
     },
     {
       "year": 2013,
@@ -123,7 +171,13 @@
       "life_insurance": 15.4,
       "mashonisa_borrowing": 1.0,
       "retirement_product": 18.5,
-      "stokvel_membership": 6.8
+      "stokvel_membership": 6.8,
+      "housing_tenure_owner": 68.1,
+      "housing_tenure_renter": 14.0,
+      "vehicle_finance_current": 4.1,
+      "housing_owner_mortgage": 7.8,
+      "housing_owner_outright": 60.3,
+      "housing_tenure_rent_free": 16.9
     },
     {
       "year": 2014,
@@ -137,7 +191,13 @@
       "life_insurance": 14.8,
       "mashonisa_borrowing": 1.4,
       "retirement_product": 15.9,
-      "stokvel_membership": 5.4
+      "stokvel_membership": 5.4,
+      "housing_tenure_owner": 64.6,
+      "housing_tenure_renter": 14.2,
+      "vehicle_finance_current": 4.4,
+      "housing_owner_mortgage": 6.3,
+      "housing_owner_outright": 58.3,
+      "housing_tenure_rent_free": 20.4
     },
     {
       "year": 2015,
@@ -151,7 +211,13 @@
       "life_insurance": 11.8,
       "mashonisa_borrowing": 0.9,
       "retirement_product": null,
-      "stokvel_membership": 6.8
+      "stokvel_membership": 6.8,
+      "housing_tenure_owner": 51.4,
+      "housing_tenure_renter": 15.6,
+      "vehicle_finance_current": 3.4,
+      "housing_owner_mortgage": 5.9,
+      "housing_owner_outright": 45.5,
+      "housing_tenure_rent_free": 19.0
     },
     {
       "year": 2016,
@@ -165,7 +231,13 @@
       "life_insurance": 12.5,
       "mashonisa_borrowing": 1.1,
       "retirement_product": 14.5,
-      "stokvel_membership": 4.8
+      "stokvel_membership": 4.8,
+      "housing_tenure_owner": 57.5,
+      "housing_tenure_renter": 14.8,
+      "vehicle_finance_current": 2.7,
+      "housing_owner_mortgage": 4.9,
+      "housing_owner_outright": 52.5,
+      "housing_tenure_rent_free": 25.4
     },
     {
       "year": 2017,
@@ -179,7 +251,13 @@
       "life_insurance": 12.1,
       "mashonisa_borrowing": 2.1,
       "retirement_product": 15.5,
-      "stokvel_membership": 5.8
+      "stokvel_membership": 5.8,
+      "housing_tenure_owner": 63.0,
+      "housing_tenure_renter": 14.1,
+      "vehicle_finance_current": 2.3,
+      "housing_owner_mortgage": 6.6,
+      "housing_owner_outright": 56.3,
+      "housing_tenure_rent_free": 21.0
     },
     {
       "year": 2018,
@@ -193,7 +271,13 @@
       "life_insurance": 12.6,
       "mashonisa_borrowing": 2.8,
       "retirement_product": 18.1,
-      "stokvel_membership": 9.1
+      "stokvel_membership": 9.1,
+      "housing_tenure_owner": 61.6,
+      "housing_tenure_renter": 13.9,
+      "vehicle_finance_current": 3.6,
+      "housing_owner_mortgage": 7.2,
+      "housing_owner_outright": 54.4,
+      "housing_tenure_rent_free": 22.8
     },
     {
       "year": 2019,
@@ -207,7 +291,13 @@
       "life_insurance": 11.9,
       "mashonisa_borrowing": 1.9,
       "retirement_product": 17.5,
-      "stokvel_membership": 9.4
+      "stokvel_membership": 9.4,
+      "housing_tenure_owner": 59.0,
+      "housing_tenure_renter": 11.7,
+      "vehicle_finance_current": 3.5,
+      "housing_owner_mortgage": 8.1,
+      "housing_owner_outright": 50.9,
+      "housing_tenure_rent_free": 26.1
     }
   ]
 }

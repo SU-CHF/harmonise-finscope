@@ -79,27 +79,39 @@ def build_indicator(df: pd.DataFrame, row: pd.Series) -> pd.Series:
     columns = resolve_columns(df, row)
     codes = parse_codes(row["positive_codes"])
     aggregation = row.get("aggregation", "single")
+    missing_policy = row.get("missing_policy", "legacy")
+    if pd.isna(missing_policy) or missing_policy == "":
+        missing_policy = "legacy"
+
+    if missing_policy not in {"legacy", "exclude"}:
+        raise ValueError(
+            f"Unsupported missing_policy '{missing_policy}' in mapping row:\n{row}"
+        )
+
+    frame = df[columns]
 
     if aggregation == "single":
         if len(columns) != 1:
             raise ValueError(
                 f"'single' aggregation expects exactly one column, got {columns} for mapping row:\n{row}"
             )
-        series = df[columns[0]].isin(codes)
+        series = frame.iloc[:, 0].isin(codes)
     elif aggregation == "any":
-        frame = df[columns]
         if codes:
             series = frame.isin(codes).any(axis=1)
         else:
             series = frame.any(axis=1)
     elif aggregation == "all":
-        frame = df[columns]
         if codes:
             series = frame.isin(codes).all(axis=1)
         else:
             series = frame.all(axis=1)
     else:
         raise ValueError(f"Unsupported aggregation '{aggregation}' in mapping row:\n{row}")
+
+    if missing_policy == "exclude":
+        nullable = series.astype("Int64")
+        return nullable.mask(frame.isna().all(axis=1))
 
     return series.astype(int)
 
