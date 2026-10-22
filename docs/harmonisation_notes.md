@@ -45,7 +45,11 @@ Living document capturing contextual checks, questionnaire quirks, and modelling
 
 ### Home Has Electricity
 - Direct utility questions appear from 2012 onwards.
-- Earlier proxies include LSM electricity ownership (2006), electric stove ownership (2007), “items in household – electricity” (2008–2009), and primary cooking fuel being electricity (2010–2011). These proxies may undercount households with grid access but alternative cooking sources.
+- Earlier retained proxies include LSM electricity ownership (2006), “items in household – electricity” (2008–2009), and primary cooking fuel being electricity (2011). These proxies may undercount households with grid access but alternative cooking sources.
+- The electric stove ownership proxy (2007) and primary cooking fuel proxy (2010) are excluded from extraction and published outputs.
+
+### Housing Ownership
+- “Household reports owning its dwelling” and “Owner without a mortgage or bond” are excluded from extraction and published outputs for all years.
 
 ### Stokvel Membership
 - Historic questionnaires classify stokvels as investment products (`Q67BT`, `Q162_F`, `Q193_G`, `Q202_I`, `Q65_15`) before moving them to the social group module in 2012.
@@ -68,7 +72,7 @@ Living document capturing contextual checks, questionnaire quirks, and modelling
 
 ### Food Insecurity (“Often Went Without Food”)
 - Afrobarometer waves (2006–2010) supply explicit frequency options; flag only `1=Often`.
-- Ask Afrika (2011) replaces the scale with a binary “went without enough food” item, introducing a structural break.
+- Ask Afrika (2011) replaces the scale with a binary “went without enough food” item. This observation is excluded from extraction and published outputs because it does not measure frequency.
 - Afrobarometer wording returns from 2016 alongside the familiar frequency scale and `20=Don’t know`.
 
 ## Further Work
