@@ -13,6 +13,7 @@ bank_account_own_name,Bank account in own name,2016,column,F1,1,single,,
 bank_account_own_name,Bank account in own name,2017,column,F1,1,single,,
 bank_account_own_name,Bank account in own name,2018,column,F1,1,single,,
 bank_account_own_name,Bank account in own name,2019,column,F1,1,single,,
+bank_account_own_name,Bank account in own name,2021,column,F1,1,single,,"Code 1=Yes; 2=No; 999=Don't know",
 burial_society,Burial society membership,2006,column,Q67AP,3,single,,
 burial_society,Burial society membership,2007,column,Q128_A,3,single,,
 burial_society,Burial society membership,2008,column,Q170_M,3,single,,
@@ -27,6 +28,7 @@ burial_society,Burial society membership,2016,column,I1_09,3,single,,
 burial_society,Burial society membership,2017,column,I1_9,3,single,,
 burial_society,Burial society membership,2018,column,I1_9,3,single,,
 burial_society,Burial society membership,2019,column,i1_10,3,single,,
+burial_society,Burial society membership,2021,column,I1_10,3,single,,"Code 3=Have it in my name; 4=Covered by somebody else excluded; follows 2019 product-grid definition",
 credit_card,Has credit card,2006,column,Q67H,3,single,,
 credit_card,Has credit card,2007,column,Q72_I,3,single,,
 credit_card,Has credit card,2008,column,Q105_I,3,single,,
@@ -41,6 +43,7 @@ credit_card,Has credit card,2016,column,F7_5,3,single,,
 credit_card,Has credit card,2017,column,F7_6,3,single,,
 credit_card,Has credit card,2018,column,F7_6,3,single,,
 credit_card,Has credit card,2019,column,F7_04,3,single,,
+credit_card,Has credit card,2021,column,F7_4,3,single,,Code 3=Have now; no zero padding in 2021 field name,
 electricity_access,Home has electricity,2006,column,Q196Q,1,single,,LSM electricity item; 1=Yes
 electricity_access,Home has electricity,2008,column,Q221_Q,1,single,,
 electricity_access,Home has electricity,2009,column,Q229_R,1,single,,
@@ -53,6 +56,7 @@ electricity_access,Home has electricity,2016,column,A5,1,single,,
 electricity_access,Home has electricity,2017,column,A5,1,single,,
 electricity_access,Home has electricity,2018,column,A5,1,single,,
 electricity_access,Home has electricity,2019,column,M10A,1,single,,
+electricity_access,Home has electricity,2021,column,M10a,1,single,,Code 1=Yes; direct household electricity question,
 food_insecurity_often,Often went without food due to lack of money,2006,column,Q187A,1,single,,
 food_insecurity_often,Often went without food due to lack of money,2007,column,Q196_A,1,single,,
 food_insecurity_often,Often went without food due to lack of money,2008,column,Q216_A,1,single,,
@@ -78,6 +82,7 @@ funeral_insurance,Funeral insurance coverage,2016,prefix,I1_,3,any,I1_09,
 funeral_insurance,Funeral insurance coverage,2017,prefix,I1_,3,any,I1_9,
 funeral_insurance,Funeral insurance coverage,2018,prefix,I1_,3,any,I1_9,
 funeral_insurance,Funeral insurance coverage,2019,prefix,i1_,3,any,i1_10,
+funeral_insurance,Funeral insurance coverage,2021,prefix,I1_,3,any,I1_10,"Code 3=Have it in my name; excludes burial society and code 4=Covered by somebody else; code 5=Don't know",
 home_loan,Has home loan,2006,column,Q67M;Q67N,3,any,,
 home_loan,Has home loan,2007,column,Q72_Q;Q72_R,3,any,,
 home_loan,Has home loan,2008,column,Q105_Q,3,single,,
@@ -92,6 +97,7 @@ home_loan,Has home loan,2016,column,F7_10,3,single,,
 home_loan,Has home loan,2017,column,F7_10,3,single,,
 home_loan,Has home loan,2018,column,F7_10,3,single,,
 home_loan,Has home loan,2019,column,F7_07,3,single,,
+home_loan,Has home loan,2021,column,F7_7,3,single,,Code 3=Have now; bank or bond originator home loan,
 life_insurance,Life insurance coverage,2006,column,Q67BC,3,single,,
 life_insurance,Life insurance coverage,2007,column,Q145_A,3,single,,
 life_insurance,Life insurance coverage,2008,column,Q149_M,3,single,,
@@ -106,6 +112,7 @@ life_insurance,Life insurance coverage,2016,column,H1_12,3,single,,
 life_insurance,Life insurance coverage,2017,column,H1_12,3,single,,
 life_insurance,Life insurance coverage,2018,column,H1a_12,3,single,,
 life_insurance,Life insurance coverage,2019,column,H3a_13,3,single,,
+life_insurance,Life insurance coverage,2021,column,H3a_13,3,single,,Code 3=Have it in my name; code 4=Covered by somebody else excluded as in 2019,
 mashonisa_borrowing,Borrowed from mashonisa or loan shark,2006,column,Q67Y,3,single,,
 mashonisa_borrowing,Borrowed from mashonisa or loan shark,2007,column,Q92_H,3,single,,
 mashonisa_borrowing,Borrowed from mashonisa or loan shark,2008,column,Q129_C,3,single,,
@@ -120,6 +127,7 @@ mashonisa_borrowing,Borrowed from mashonisa or loan shark,2016,column,G3_04,1,si
 mashonisa_borrowing,Borrowed from mashonisa or loan shark,2017,column,G3_4,1,single,,"Code 1=Yes, 0=No"
 mashonisa_borrowing,Borrowed from mashonisa or loan shark,2018,column,G3_4,1,single,,"Code 1=Yes, 0=No"
 mashonisa_borrowing,Borrowed from mashonisa or loan shark,2019,column,G3_6,1,single,,"Code 1=Yes, 2=No"
+mashonisa_borrowing,Borrowed from mashonisa or loan shark,2021,column,G3_6,1,single,,"Past 12 months; 1=Yes; 0=No; nulls treated as non-positive under the legacy policy",
 retirement_product,"Has retirement annuity, provident, or pension fund",2006,column,Q67BJ;Q67BK;Q67BL,3,any,,
 retirement_product,"Has retirement annuity, provident, or pension fund",2007,column,Q155_A;Q155_B;Q155_C,3,any,,
 retirement_product,"Has retirement annuity, provident, or pension fund",2008,column,Q186_A;Q186_B;Q186_C,3,any,,
@@ -133,6 +141,7 @@ retirement_product,"Has retirement annuity, provident, or pension fund",2016,col
 retirement_product,"Has retirement annuity, provident, or pension fund",2017,column,J1_1;J1_2;J1_3,2,any,,"Codes 1=Do not have, 2=Have now"
 retirement_product,"Has retirement annuity, provident, or pension fund",2018,column,J1_1;J1_2;J1_3,2,any,,"Codes 1=Do not have, 2=Have now"
 retirement_product,"Has retirement annuity, provident, or pension fund",2019,column,J1_1;J1_2;J1_3,2,any,,"Codes 1=Do not have, 2=Have now"
+retirement_product,"Has retirement annuity, provident, or pension fund",2021,column,J1_1;J1_2;J1_3,2,any,,"Codes 1=Do not have; 2=Have now; 3=Don't know",
 stokvel_membership,Membership of a stokvel,2006,column,Q67BT,3,single,,
 stokvel_membership,Membership of a stokvel,2007,column,Q162_F,3,single,,
 stokvel_membership,Membership of a stokvel,2008,column,Q193_G,3,single,,
@@ -147,6 +156,7 @@ stokvel_membership,Membership of a stokvel,2016,column,A7_4,1,single,,
 stokvel_membership,Membership of a stokvel,2017,column,A7_4,1,single,,
 stokvel_membership,Membership of a stokvel,2018,column,A7_4,1,single,,
 stokvel_membership,Membership of a stokvel,2019,column,C7_2,1,single,,
+stokvel_membership,Membership of a stokvel,2021,column,C7_2,1,single,,Code 1=Yes; 0=No; social-group membership as in 2019,
 housing_owner_mortgage,Owner paying a mortgage or bond,2010,column,Q242_,2,single,,,exclude
 housing_owner_mortgage,Owner paying a mortgage or bond,2011,column,Q84_,2,single,,,exclude
 housing_owner_mortgage,Owner paying a mortgage or bond,2012,column,Q103_,1,single,,,exclude
@@ -157,6 +167,7 @@ housing_owner_mortgage,Owner paying a mortgage or bond,2016,column,A2a,1,single,
 housing_owner_mortgage,Owner paying a mortgage or bond,2017,column,A2a,1,single,,,exclude
 housing_owner_mortgage,Owner paying a mortgage or bond,2018,column,A2a,1,single,,,exclude
 housing_owner_mortgage,Owner paying a mortgage or bond,2019,column,M11,1,single,,,exclude
+housing_owner_mortgage,Owner paying a mortgage or bond,2021,column,M11,1,single,,Code 1=Is paying off a bond or home loan,exclude
 housing_tenure_rent_free,Household occupies dwelling rent-free,2010,column,Q242_,4,single,,,exclude
 housing_tenure_rent_free,Household occupies dwelling rent-free,2011,column,Q84_,4,single,,,exclude
 housing_tenure_rent_free,Household occupies dwelling rent-free,2012,column,Q103_,4,single,,,exclude
@@ -167,6 +178,7 @@ housing_tenure_rent_free,Household occupies dwelling rent-free,2016,column,A2a,4
 housing_tenure_rent_free,Household occupies dwelling rent-free,2017,column,A2a,4,single,,,exclude
 housing_tenure_rent_free,Household occupies dwelling rent-free,2018,column,A2a,4,single,,,exclude
 housing_tenure_rent_free,Household occupies dwelling rent-free,2019,column,M11,4,single,,,exclude
+housing_tenure_rent_free,Household occupies dwelling rent-free,2021,column,M11,4,single,,Code 4=Does not own the home and does not pay anything for the home,exclude
 housing_tenure_renter,Household rents its dwelling,2006,column,Q104,2,single,,,exclude
 housing_tenure_renter,Household rents its dwelling,2007,column,Q87_,2,single,,,exclude
 housing_tenure_renter,Household rents its dwelling,2008,column,Q125_,2,single,,,exclude
@@ -181,6 +193,7 @@ housing_tenure_renter,Household rents its dwelling,2016,column,A2a,3,single,,,ex
 housing_tenure_renter,Household rents its dwelling,2017,column,A2a,3,single,,,exclude
 housing_tenure_renter,Household rents its dwelling,2018,column,A2a,3,single,,,exclude
 housing_tenure_renter,Household rents its dwelling,2019,column,M11,3,single,,,exclude
+housing_tenure_renter,Household rents its dwelling,2021,column,M11,3,single,,Code 3=Rents the house,exclude
 vehicle_finance_current,Current formal vehicle finance,2006,column,Q67AB,3,single,,Bank or dealer finance,exclude
 vehicle_finance_current,Current formal vehicle finance,2007,column,Q92_L,3,single,,Bank or dealer finance,exclude
 vehicle_finance_current,Current formal vehicle finance,2008,column,Q105_R,3,single,,Bank or dealer finance,exclude
@@ -195,3 +208,4 @@ vehicle_finance_current,Current formal vehicle finance,2016,column,F7_3,3,single
 vehicle_finance_current,Current formal vehicle finance,2017,column,F7_3,3,single,,Bank or dealer finance held now,exclude
 vehicle_finance_current,Current formal vehicle finance,2018,column,F7_3,3,single,,Bank or dealer finance held now,exclude
 vehicle_finance_current,Current formal vehicle finance,2019,column,F7_03,3,single,,Bank or dealer finance held now,exclude
+vehicle_finance_current,Current formal vehicle finance,2021,column,F7_3,3,single,,Code 3=Have now; bank or dealer finance; no zero padding in 2021 field name,exclude

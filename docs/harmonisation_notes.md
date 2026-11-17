@@ -74,6 +74,7 @@ Living document capturing contextual checks, questionnaire quirks, and modelling
 - Afrobarometer waves (2006–2010) supply explicit frequency options; flag only `1=Often`.
 - Ask Afrika (2011) replaces the scale with a binary “went without enough food” item. This observation is excluded from extraction and published outputs because it does not measure frequency.
 - Afrobarometer wording returns from 2016 alongside the familiar frequency scale and `20=Don’t know`.
+- The comparable frequency item is absent in 2019 and 2021; leave those observations missing.
 
 ## Further Work
 

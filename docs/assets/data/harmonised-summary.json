@@ -268,6 +268,24 @@
       "vehicle_finance_current": 3.5,
       "housing_owner_mortgage": 8.1,
       "housing_tenure_rent_free": 26.1
+    },
+    {
+      "year": 2021,
+      "bank_account_own_name": 80.5,
+      "burial_society": 28.9,
+      "credit_card": 6.0,
+      "electricity_access": 95.9,
+      "food_insecurity_often": null,
+      "funeral_insurance": 29.6,
+      "home_loan": 2.3,
+      "life_insurance": 9.9,
+      "mashonisa_borrowing": 7.5,
+      "retirement_product": 14.9,
+      "stokvel_membership": 9.7,
+      "housing_tenure_renter": 14.5,
+      "vehicle_finance_current": 3.2,
+      "housing_owner_mortgage": 5.7,
+      "housing_tenure_rent_free": 14.5
     }
   ]
 }

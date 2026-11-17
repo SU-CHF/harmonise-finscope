@@ -2,7 +2,7 @@
 layout: default
 title: Code explained
 nav_order: 2
-description: "How the conde produces the harmonised series."
+description: "How the code produces the harmonised series."
 ---
 
 # Code explained

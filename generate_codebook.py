@@ -1,17 +1,25 @@
-import os
+import argparse
 import json
 import pandas as pd
-import pyreadstat
-from dotenv import load_dotenv
 from pathlib import Path 
-from utils import get_finscope_path, load_finscope_data
+from utils import load_finscope_data
+
+parser = argparse.ArgumentParser(description="Generate FinScope variable and value-label codebooks.")
+parser.add_argument(
+    "years",
+    nargs="*",
+    type=int,
+    default=[*range(2005, 2020), 2021],
+    help="Survey years to generate (default: 2005–2019 and 2021; no 2020 extract is available).",
+)
+args = parser.parse_args()
 
 # Create the codebook folder if it doesn't exist
 codebook_folder = Path("codebook")
 codebook_folder.mkdir(exist_ok=True)
 
-# Loop through years 2005 to 2019 to load data and create codebooks
-for year in range(2005, 2020):
+# Generate only available survey waves; allow an individual year to be refreshed.
+for year in args.years:
     try:
         df, metadata = load_finscope_data(year)
         

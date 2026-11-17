@@ -14,11 +14,15 @@ The tenure questionnaire changes materially in 2010. Earlier waves use broad `Ow
 
 ## Vehicle ownership
 
-Personal vehicle ownership is observed directly only in 2006, 2008–2009, and 2018–2019. Other waves contain household-level motor-vehicle items or lifestyle questions about exotic and pre-owned vehicles. These differ in unit of observation and coverage, so they are not substituted for personal ownership. Current formal bank or dealer vehicle finance is observed consistently and has been harmonised instead.
+Personal vehicle ownership is observed directly only in 2006, 2008–2009, 2018–2019, and 2021. Other waves contain household-level motor-vehicle items or lifestyle questions about exotic and pre-owned vehicles. These differ in unit of observation and coverage, so they are not substituted for personal ownership. Current formal bank or dealer vehicle finance is observed consistently and has been harmonised instead.
+
+The 2021 survey also asks about personally owning or paying off a motor vehicle (`H1_1`); this does not turn the sparse personal-ownership observations into a continuous series. The published vehicle-finance indicator is extended using `F7_3=3`, retaining its existing definition.
 
 ## Financial literacy
 
 There is no common financial-literacy measure. The 2006–2009 surveys ask respondents whether they understand selected financial terms, which is self-reported knowledge. The 2019 survey contains one objective inflation question. The intervening 2010–2018 waves do not contain a comparable measure, so these items cannot form a continuous general financial-literacy series.
+
+The 2021 questionnaire omits the 2019 objective inflation and interest questions (`L9` and `L10`). Its self-assessments about understanding financial contracts and fees are not substitutes for objective knowledge.
 
 ## Multiple insurance policies
 
@@ -27,3 +31,5 @@ Policy counts are available only in selected modules. The 2006 survey counts cur
 ## Multiple lives on a policy
 
 The 2015–2019 surveys ask how many people are covered under each type of funeral cover held in the respondent's own name. They do not assign policy identifiers or establish whether a respondent has more than one policy of the same type. The data can therefore describe people covered by a funeral-cover type, but cannot establish that multiple lives are attached to one distinct policy or support a full 2006–2019 series.
+
+The 2021 funeral module retains product holding and provider questions but omits the number of people covered. It therefore adds neither policy counts nor covered-life counts. The harmonised 2021 funeral, burial-society, and life-insurance indicators retain the 2019 own-name definition; cover supplied by somebody else is not counted.
